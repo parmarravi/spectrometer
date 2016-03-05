@@ -1,4 +1,172 @@
-  .button1{ 
+ .cssload-loader-inner {
+		bottom: 300px;
+		height: 113px;
+		left: 300px;
+		margin: auto;
+		position: absolute;
+		right: 50px;
+		top: 10px;
+		width: 188px;
+}
+
+.cssload-cssload-loader-line-wrap-wrap {
+		animation: cssload-spin 1600ms cubic-bezier(.175, .885, .32, 1.275) infinite;
+		-o-animation: cssload-spin 1600ms cubic-bezier(.175, .885, .32, 1.275) infinite;
+		-ms-animation: cssload-spin 1600ms cubic-bezier(.175, .885, .32, 1.275) infinite;
+		-webkit-animation: cssload-spin 1600ms cubic-bezier(.175, .885, .32, 1.275) infinite;
+		-moz-animation: cssload-spin 1600ms cubic-bezier(.175, .885, .32, 1.275) infinite;
+		box-sizing: border-box;
+		-o-box-sizing: border-box;
+		-ms-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		height: 94px;
+		left: 0;
+		overflow: hidden;
+		position: absolute;
+		top: 0;
+		transform-origin: 50% 100%;
+		-o-transform-origin: 50% 100%;
+		-ms-transform-origin: 50% 100%;
+		-webkit-transform-origin: 50% 100%;
+		-moz-transform-origin: 50% 100%;
+		width: 188px;
+}
+.cssload-loader-line-wrap {
+		border: 8px solid transparent;
+		border-radius: 100%;
+		-o-border-radius: 100%;
+		-ms-border-radius: 100%;
+		-webkit-border-radius: 100%;
+		-moz-border-radius: 100%;
+		box-sizing: border-box;
+		-o-box-sizing: border-box;
+		-ms-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		height: 188px;
+		left: 0;
+		margin: 0 auto;
+		position: absolute;
+		right: 0;
+		top: 0;
+		width: 188px;
+}
+.cssload-cssload-loader-line-wrap-wrap:nth-child(1) { animation-delay: -40ms;
+		-o-animation-delay: -40ms;
+		-ms-animation-delay: -40ms;
+		-webkit-animation-delay: -40ms;
+		-moz-animation-delay: -40ms; }
+.cssload-cssload-loader-line-wrap-wrap:nth-child(2) { animation-delay: -80ms;
+		-o-animation-delay: -80ms;
+		-ms-animation-delay: -80ms;
+		-webkit-animation-delay: -80ms;
+		-moz-animation-delay: -80ms; }
+.cssload-cssload-loader-line-wrap-wrap:nth-child(3) { animation-delay: -120ms;
+		-o-animation-delay: -120ms;
+		-ms-animation-delay: -120ms;
+		-webkit-animation-delay: -120ms;
+		-moz-animation-delay: -120ms; }
+.cssload-cssload-loader-line-wrap-wrap:nth-child(4) { animation-delay: -160ms;
+		-o-animation-delay: -160ms;
+		-ms-animation-delay: -160ms;
+		-webkit-animation-delay: -160ms;
+		-moz-animation-delay: -160ms; }
+.cssload-cssload-loader-line-wrap-wrap:nth-child(5) { animation-delay: -200ms;
+		-o-animation-delay: -200ms;
+		-ms-animation-delay: -200ms;
+		-webkit-animation-delay: -200ms;
+		-moz-animation-delay: -200ms; }
+
+.cssload-cssload-loader-line-wrap-wrap:nth-child(1) .cssload-loader-line-wrap {
+		border-color: rgb(234,71,71);
+		height: 169px;
+		width: 169px;
+		top: 13px;
+}
+.cssload-cssload-loader-line-wrap-wrap:nth-child(2) .cssload-loader-line-wrap {
+		border-color: rgb(234,234,71);
+		height: 143px;
+		width: 143px;
+		top: 26px;
+}
+.cssload-cssload-loader-line-wrap-wrap:nth-child(3) .cssload-loader-line-wrap {
+		border-color: rgb(71,234,71);
+		height: 116px;
+		width: 116px;
+		top: 39px;
+}
+.cssload-cssload-loader-line-wrap-wrap:nth-child(4) .cssload-loader-line-wrap {
+		border-color: rgb(71,234,234);
+		height: 90px;
+		width: 90px;
+		top: 53px;
+}
+.cssload-cssload-loader-line-wrap-wrap:nth-child(5) .cssload-loader-line-wrap {
+		border-color: rgb(71,71,234);
+		height: 64px;
+		width: 64px;
+		top: 66px;
+}
+
+
+
+
+@keyframes cssload-spin {
+		0%, 15% {
+		transform: rotate(0);
+		transform: rotate(0);
+	}
+	100% {
+		transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+
+@-o-keyframes cssload-spin {
+		0%, 15% {
+		-o-transform: rotate(0);
+		transform: rotate(0);
+	}
+	100% {
+		-o-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+
+@-ms-keyframes cssload-spin {
+		0%, 15% {
+		-ms-transform: rotate(0);
+		transform: rotate(0);
+	}
+	100% {
+		-ms-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+
+@-webkit-keyframes cssload-spin {
+		0%, 15% {
+		-webkit-transform: rotate(0);
+		transform: rotate(0);
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+
+@-moz-keyframes cssload-spin {
+		0%, 15% {
+		-moz-transform: rotate(0);
+		transform: rotate(0);
+	}
+	100% {
+		-moz-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+ .button1{ 
     background-color: #555555;
     border: none;
     color: white;
@@ -14,16 +182,17 @@
   .button1:hover {background-color: #1464FF}
   
 #header {
-    background-color:#00bbff;
+    background-color:#428bca;
     color:white;
     text-align:left;
-    padding:20px;
+    padding:10px;
+    margin:0;
 }
 
 #nav {
     line-height:30px;
     background-color:#eeeeee;
-    height:500px;
+    height:600px;
     width:200px;
     float:left;
     padding:30px;	     
@@ -61,12 +230,13 @@ color:#1464FF;
     list-style-type: none;
     color:white;
     margin: 0;
-    padding: 10px;
+    padding: 5px;
     overflow: hidden;
     background-color: #333;
 }
 #capturebar li {
      float: left;
+     border-right:1px solid #bbb;
 }
 #capturebar li a{
      display: inline-block;
@@ -83,12 +253,13 @@ color:#1464FF;
     list-style-type: none;
     color:white;
     margin: 0;
-    padding: 10px;
+    padding: 5px;
     overflow: hidden;
     background-color: #333;
 }
 #absorptionbar li {
      float: left;
+     border-right:1px solid #bbb;
 }
 #absorptionbar li a{
      display: inline-block;
@@ -105,7 +276,7 @@ color:#1464FF;
     color:black;
     clear:both;
     text-align:right;
-    padding:150px;
+    padding:50px;
     font-family:courier;
 }
 input[type=text] {
