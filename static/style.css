@@ -1,6 +1,5 @@
-.button1{
-
-   background-color: #555555;
+  .button1{ 
+    background-color: #555555;
     border: none;
     color: white;
     padding: 10px 18px;
@@ -11,75 +10,33 @@
     margin: 4px 2px;
     cursor: pointer;
     font-family:courier;
-  }
-
+  }  
   .button1:hover {background-color: #1464FF}
-  .button2{
-    background-color: #555555;
-    border: none;
-    color: white;
-    padding: 10px 52px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    font-family:courier;
-  }
-  .button2:hover {background-color: #1464FF}
-  .button3{
-    background-color: #555555;
-    border: none;
-    color: white;
-    padding: 10px 28px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    font-family:courier;
-  }
-  .button3:hover {background-color: #1464FF}
-  .button4{
-    background-color:#555555;
-    border: none;
-    color: white;
-    padding: 10px 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    font-family:courier;
-  }
-  .button4:hover {background-color: #1464FF}
-
-  #header {
+  
+#header {
     background-color:#00bbff;
     color:white;
     text-align:left;
     padding:20px;
 }
+
 #nav {
     line-height:30px;
     background-color:#eeeeee;
     height:500px;
     width:200px;
     float:left;
-    padding:30px;
+    padding:30px;	     
     font-family:courier;
 }
-ul{
+#nav ul{
 margin:0px;
 padding:0px;
 }
-ul li{
+#nav ul li{
 list-style:none;
 }
-ul li a{
+#nav ul li a{
 background:#eeeeee;
 color:black;
 display:block;
@@ -87,13 +44,61 @@ width:180px;
 padding:10px;
 }
 
+#nav a:hover { 
+color:#1464FF;
+}
+
 #section {
     height:200px;
     width:200px;
     float:left;
-    padding:5px;
-
+    padding:5px;	
     font-family:courier;
+}
+
+
+#capturebar ul {
+    list-style-type: none;
+    color:white;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #333;
+}
+#capturebar li {
+     float: left;
+}
+#capturebar li a{
+     display: inline-block;
+     color: white;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+}
+#capturebar li a:hover {
+     background-color:#6fff6a;
+}
+
+#absorptionbar ul {
+    list-style-type: none;
+    color:white;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #333;
+}
+#absorptionbar li {
+     float: left;
+}
+#absorptionbar li a{
+     display: inline-block;
+     color: white;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+}
+#absorptionbar li a:hover {
+     background-color:#6fff6a;
 }
 #footer {
     background-color:transaprent
@@ -111,7 +116,7 @@ input[type=text] {
     font-size: 16px;
     background-color: white;
     background-image: url('searchicon.png');
-    background-position: 10px 10px;
+    background-position: 10px 10px; 
     background-repeat: no-repeat;
     padding: 12px 20px 12px 40px;
     -webkit-transition: width 0.4s ease-in-out;
