@@ -8,7 +8,7 @@
 <h1><center>CaptureSpectra</center></h1>
 </div>
 
-<div id="nav">
+<div id="nav" style="height:600px;width:200px;">
 <ul>
 <li><a href="capturespectra.html">CaptureSpectra</a></li>
 <hr> 
@@ -27,19 +27,23 @@
 </form>
 </div>
 <div id="capturebar">
-
 <ul>
-<li><a href="#SelectSource">selectSource</a></li>
 <li><a href="#Capture">Capture</a></li>
 <li><a href="#Calibrate">Calibrate</a></li>
 <ul style ="float:right;list-style-type:none;">
-  <li><a href="#upload">Upload</a></button></li>
+  <li><a href="#upload">Upload</a></li>
   <li><a href="#Save">Save</a></li>
   </ul>
 </ul>
-
 </div>
-  
+<div class="button"><a href="capturespectra.html/capture/">CAPTURE</a></div>
+
+<ul class="photos">
+    {% for photo in photos %}
+    <li><a href="/view/{{ photo[15:-4] }}/"><img src="{{ photo }}" /></a></li>
+    {% endfor %}
+</ul>
+
 <div id="footer">
 <hr>
 parmarravi950@gmail.com

@@ -181,6 +181,21 @@
   }  
   .button1:hover {background-color: #1464FF}
   
+
+
+
+.logo{
+  background:url('rocket.png');
+  background-size:70% 70%;
+  background-repeat:no-repeat;
+  width:200px;
+  height:75px;
+  text-align:left;
+  color:white;
+  padding:0px;
+  font-family:courier;
+}
+
 #header {
     background-color:#428bca;
     color:white;
@@ -218,9 +233,6 @@ color:#1464FF;
 }
 
 #section {
-    height:200px;
-    width:200px;
-    float:left;
     padding:5px;	
     font-family:courier;
 }
@@ -246,7 +258,35 @@ color:#1464FF;
      text-decoration: none;
 }
 #capturebar li a:hover {
-     background-color:#6fff6a;
+     background-color:#428bca;
+}
+#capturebar select {
+font-family:cursive;
+font-size:16px;
+padding:20px 40x;
+}
+
+.button {
+    width: 420px;
+    margin: 10px auto;
+    background: white;
+    border-radius: 20px;
+}
+
+ul.photos {
+    margin: 0;
+    padding: 0;
+}
+
+ul.photos li {
+    width: 50px;
+    float: right;
+    list-style-type: none;
+}
+
+ul.photos li img {
+    width: 50px;
+    border: 1px solid white;
 }
 
 #absorptionbar ul {
@@ -269,14 +309,15 @@ color:#1464FF;
      text-decoration: none;
 }
 #absorptionbar li a:hover {
-     background-color:#6fff6a;
+     background-color:#428bca;
 }
+
 #footer {
     background-color:transaprent
     color:black;
     clear:both;
     text-align:right;
-    padding:50px;
+     height:200px;
     font-family:courier;
 }
 input[type=text] {
