@@ -202,16 +202,18 @@
     text-align:left;
     padding:10px;
     margin:0;
+    width:auto;
 }
 
 #nav {
     line-height:30px;
     background-color:#eeeeee;
-    height:600px;
-    width:200px;
+    height:auto;
+    width:auto;
     float:left;
-    padding:30px;	     
+    padding:5px;	     
     font-family:courier;
+   
 }
 #nav ul{
 margin:0px;
@@ -224,8 +226,7 @@ list-style:none;
 background:#eeeeee;
 color:black;
 display:block;
-width:180px;
-padding:10px;
+padding:5px;
 }
 
 #nav a:hover { 
@@ -234,7 +235,8 @@ color:#1464FF;
 
 #section {
     padding:5px;	
-    font-family:courier;
+    font-family:courier; 
+    width:auto;
 }
 
 
@@ -317,8 +319,9 @@ ul.photos li img {
     color:black;
     clear:both;
     text-align:right;
-     height:200px;
+    height:auto;
     font-family:courier;
+    height:200;
 }
 input[type=text] {
     width: 130px;
